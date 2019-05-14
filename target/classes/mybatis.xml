@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+
+    <!-- 配置数据的信息
+    <properties resource="db.properties" />
+
+    -->
+    <!--配置日志 LOG4J日志默认的配置文件是 log4j.properties-->
+    <settings>
+        <setting name="mapUnderscoreToCamelCase" value="true"/>
+        <setting name="logImpl" value="LOG4J"/>
+    </settings>
+
+</configuration>
